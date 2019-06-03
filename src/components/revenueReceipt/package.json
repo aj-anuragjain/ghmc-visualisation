@@ -1,0 +1,16 @@
+{
+  "name": "revenuereceipt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "RevenueReceipt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anurag Jain <ajsanuragjain@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chartist": "^0.11.2",
+    "lodash": "^4.17.11",
+    "react-chartist": "^0.13.3"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "capitalreceipt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "CapitalReceipt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anurag Jain <ajsanuragjain@gmail.com>",
+  "license": "ISC"
+}
