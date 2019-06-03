@@ -141,17 +141,4 @@ class BarGraphs extends React.Component {
 }
 
 
-function RevenueExpenditure(){
-    return (
-        <React.Fragment>
-            <div className="">
-                <div className="row">
-                    <BarGraphs />
-                </div>
-            </div>
-        </React.Fragment>
-    );
-}
-
-
-export default RevenueExpenditure;
+export default BarGraphs;

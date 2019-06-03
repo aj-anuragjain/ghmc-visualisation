@@ -141,17 +141,4 @@ class BarGraphs extends React.Component {
 }
 
 
-function CapitalReceipt(){
-    return (
-        <React.Fragment>
-            <div className="">
-                <div className="row">
-                    <BarGraphs />
-                </div>
-            </div>
-        </React.Fragment>
-    );
-}
-
-
-export default CapitalReceipt;
+export default BarGraphs;

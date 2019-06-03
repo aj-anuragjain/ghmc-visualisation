@@ -32,7 +32,6 @@ class BarGraphs extends React.Component {
                         });
 
 
-
                         const actuals = {};
                         const budgetEstimates = {};
                         const revisedEstimates = {};
@@ -141,17 +140,4 @@ class BarGraphs extends React.Component {
 }
 
 
-function CapitalExpediture(){
-    return (
-        <React.Fragment>
-            <div className="">
-                <div className="row">
-                    <BarGraphs />
-                </div>
-            </div>
-        </React.Fragment>
-    );
-}
-
-
-export default CapitalExpediture;
+export default BarGraphs;

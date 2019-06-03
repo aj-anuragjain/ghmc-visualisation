@@ -16,7 +16,7 @@ class BarGraphs extends React.Component {
                         let yearListHash = {};
 
                         const keys = Object.keys(object);
-                        keys.shift();
+                        keys.splice(0, 1);
 
                         const yearListKey = [];
 
@@ -30,8 +30,6 @@ class BarGraphs extends React.Component {
                                 yearList.push(key)
                             }
                         });
-
-
 
                         const actuals = {};
                         const budgetEstimates = {};
@@ -141,17 +139,4 @@ class BarGraphs extends React.Component {
 }
 
 
-function BudgetSummary(){
-    return (
-        <React.Fragment>
-            <div className="">
-                <div className="row">
-                    <BarGraphs />
-                </div>
-            </div>
-        </React.Fragment>
-    );
-}
-
-
-export default BudgetSummary;
+export default BarGraphs;
